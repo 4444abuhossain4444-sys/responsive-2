@@ -51,7 +51,7 @@ nav ul li a:hover, nav ul li a.active{
     }
     /* header section code start here */
     header{
-        background-image: url(images/banner2.jpg);
+        background-image: url(images/sea.png);
         height: 91vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -73,8 +73,8 @@ nav ul li a:hover, nav ul li a.active{
     .survice-title{
         text-align: center;
         color: white;
-        padding: 50px 0;
-        letter-spacing: 5px;
+        padding: 40px 0;
+        letter-spacing: 4px;
     }
     .single-survice{
         background-color: white;
