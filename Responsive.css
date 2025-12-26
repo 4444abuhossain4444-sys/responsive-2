@@ -58,6 +58,39 @@ nav ul li a:hover, nav ul li a.active{
         background-position: center center;
 
     }
+    /* first section code start */
+    #first-section{
+        background-color: #1c2833;
+        padding-bottom: 80px;
+    }
+    .all-survice-parent{
+        max-width: 1100px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 25px;
+    }
+    .survice-title{
+        text-align: center;
+        color: white;
+        padding: 50px 0;
+        letter-spacing: 5px;
+    }
+    .single-survice{
+        background-color: white;
+        text-align: center;
+        color: black;
+        padding: 30px 20px;
+        border-radius: 5px;
+        border: 3px solid green;
+        box-shadow: 5px 5px 10px gray;
+    }
+    .single-survice i{
+        font-size: 40px;
+    }
+    .single-survice h2{
+        margin: 10px 0;
+    }
 
 
 
@@ -100,3 +133,20 @@ nav ul li a:hover, nav ul li a.active{
         }
 
     }
+    /* main tag of first section media quary */
+     @media only screen and (max-width: 950px) {
+    .all-survice-parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .all-survice-parent {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+}
