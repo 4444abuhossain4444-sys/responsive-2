@@ -91,6 +91,38 @@ nav ul li a:hover, nav ul li a.active{
     .single-survice h2{
         margin: 10px 0;
     }
+    /* second section code start here */
+    .second-section{
+        background-color: #154360;
+        padding: 50px 0 100px 0;
+    }
+    .smart-area-parent{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       max-width: 1100px;
+        margin: 0 auto;
+       
+    }
+    .text-section{
+        color: white;
+    }
+    .text-section h2{
+        margin: 20px 0;
+        font-size: 30px;
+    }
+    .text-section h4{
+        text-transform: uppercase;
+    }
+    .text-section a{
+        text-decoration: none;
+        background-color: bisque;
+        padding: 10px 15px;
+        font-size: 20px;
+        display: inline-block;
+        margin-top: 25px;
+        border-radius: 5px;
+    }
 
 
 
@@ -141,12 +173,43 @@ nav ul li a:hover, nav ul li a.active{
         width: 100%;
         gap: 15px;
     }
-}
+    .image-section img{
+        width: 100%;
+    }
+    .smart-area-parent{
+       display: block;
+       margin-left: 50px;
+       margin-right: 50px;
+       
+
+    }
+
+   
+ }
+
+
 
 @media only screen and (max-width: 580px) {
     .all-survice-parent {
         grid-template-columns: 1fr;
         gap: 10px;
     }
+    .image-section img{
+        width: 100%;
+    }
+    .smart-area-parent{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+       
+       
+    }
     
-}
+
+    }
+       
+        
+
+    
+    
+
