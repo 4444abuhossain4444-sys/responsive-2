@@ -96,6 +96,14 @@ nav ul li a:hover, nav ul li a.active{
         background-color: #154360;
         padding: 50px 0 100px 0;
     }
+    .Smart-Area{
+        text-align: center;
+        color: yellow;
+        letter-spacing: 4px;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
     .smart-area-parent{
         display: flex;
         justify-content: space-between;
@@ -175,17 +183,14 @@ nav ul li a:hover, nav ul li a.active{
     }
     .image-section img{
         width: 100%;
+        margin-bottom: 50px;
     }
     .smart-area-parent{
        display: block;
        margin-left: 50px;
        margin-right: 50px;
-       
-
+       }
     }
-
-   
- }
 
 
 
@@ -196,14 +201,13 @@ nav ul li a:hover, nav ul li a.active{
     }
     .image-section img{
         width: 100%;
+        margin-bottom: 30px;
     }
     .smart-area-parent{
         display: block;
         margin-left: 20px;
         margin-right: 20px;
-       
-       
-    }
+       }
     
 
     }
