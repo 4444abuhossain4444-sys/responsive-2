@@ -188,7 +188,77 @@ nav ul li a:hover, nav ul li a.active{
         font-weight: bold;
 
     }
+    /* forth section code start */
+    #fourth-section{
+        background-color: #154360;
+        padding: 100px 0;
+        color: white;
+    }
+  
 
+.fourth-section-parent{
+    width: 1000px;           
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.single-parent{
+    flex: 1;                 /* দুইটা div সমান জায়গা নেবে */
+}
+.image-box img{
+    width: 100%;
+    height: auto;
+    display: block;
+     }
+.single-parent p{
+    margin: 20px 0;
+    line-height: 1.3;
+    text-align: justify;
+}
+.single-parent h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+
+    border-bottom: 2px solid red;
+    margin: 20px 0;
+}
+.single-parent h2{
+    margin-top: 10px;
+}
+.single-parent a{
+    text-decoration: none;
+    background-color: #eaecee;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    transition: 0.3s;
+    
+}
+.single-parent a:hover{
+    background-color: wheat;
+}
+.all-icons a{
+    display: inline-block;
+    margin: 0 5px;
+    
+}
+.all-icons{
+    text-align: center;
+
+
+}
+
+
+
+
+
+    
+   
 
 
 
@@ -231,7 +301,7 @@ nav ul li a:hover, nav ul li a.active{
 
     }
     /* main tag of first section media quary */
-     @media only screen and (max-width: 950px) {
+     @media only screen and (max-width: 1000px) {
     .all-survice-parent {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -261,12 +331,18 @@ nav ul li a:hover, nav ul li a.active{
        .about-text a{
         margin-bottom: 20px;
        }
+       .fourth-section-parent{
+        display: flex;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+       }
        
     }
 
 
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 600px) {
     .all-survice-parent {
         grid-template-columns: 1fr;
         gap: 10px;
@@ -293,6 +369,12 @@ nav ul li a:hover, nav ul li a.active{
        }
        .about-text a{
         margin-bottom: 20px;
+       }
+       .fourth-section-parent{
+        display: block;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
        }
       
     
