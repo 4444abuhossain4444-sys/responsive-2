@@ -319,6 +319,44 @@ nav ul li a:hover, nav ul li a.active{
     .submit-btn:hover{
         background-color: #1c2833;
     }
+    /* sixth section code start here */
+    #sixth-section{
+        background-color: #1c2833;
+        color: white;
+        padding: 100px 0;
+    }
+    .six-card-parent{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1000px;
+        margin: 0 auto;
+        grid-gap: 30px;
+    }
+    .first-box{
+        border: 4px solid #4497d3;
+        padding: 20px;
+    }
+    .first-box i{
+        font-size: 35px;
+        margin: 0 20px 10px 20px;
+    }
+    .first-box h5{
+        font-size: 17px;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+    }
+    .first-box p{
+        font-size: 14px;
+        color: #a4cae6;
+    }
+    .first-box:nth-child(2){
+        border: 4px solid white;
+
+    }
+    .some-text{
+        letter-spacing: 0.1em;
+        line-height: 1.5;
+    }
 
 
 
@@ -368,7 +406,7 @@ nav ul li a:hover, nav ul li a.active{
 
     }
     /* main tag of first section media quary */
-     @media only screen and (max-width: 1000px) {
+     @media only screen and (max-width: 1050px) {
     .all-survice-parent {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -407,12 +445,19 @@ nav ul li a:hover, nav ul li a.active{
        form{
         max-width: 95%;
        }
+       /* six section start */
+       .six-card-parent{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        padding: 0 20px;
+
+       }
        
     }
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .all-survice-parent {
         grid-template-columns: 1fr;
         gap: 10px;
@@ -453,6 +498,17 @@ nav ul li a:hover, nav ul li a.active{
        form{
         max-width: 80%;
        }
+       /* six section start */
+       .six-card-parent{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+       }
+       .some-text{
+        text-align: center;
        
       
     
