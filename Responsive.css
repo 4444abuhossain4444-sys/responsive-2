@@ -357,6 +357,32 @@ nav ul li a:hover, nav ul li a.active{
         letter-spacing: 0.1em;
         line-height: 1.5;
     }
+    /* seventh section code start her */
+    #seven-section{
+        padding: 100px 0;
+    }
+    .seventh-sec-parent{
+        max-width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+     .image-section img{
+        width: 100%;
+        flex: 1;
+    }
+    .ul-list-section h3{
+        font-size: 35px;
+    }
+    .ul-list-section p{
+        margin: 15px 0;
+    }
+    .ul-list-section ul li{
+        list-style-position: inside;
+        margin: 10px 0;
+    }
 
 
 
@@ -452,6 +478,15 @@ nav ul li a:hover, nav ul li a.active{
         padding: 0 20px;
 
        }
+       /* seven section code start */
+       .seventh-sec-parent{
+        display: block;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .ul-list-section{
+        padding-bottom: 60px;
+    }
        
     }
 
@@ -510,8 +545,16 @@ nav ul li a:hover, nav ul li a.active{
        .some-text{
         text-align: center;
        
-      
-    
+    }
+    /* seventh section code start */
+    .seventh-sec-parent{
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .ul-list-section{
+        padding-bottom: 50px;
+    }
 
     }
        
